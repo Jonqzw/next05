@@ -4,7 +4,7 @@ export default async function getWikiResults(searchTerm: string) {
         generator: 'search',
         gsrsearch: searchTerm,
         gsrlimit: '20',
-        prop: 'pageimages | extracts',
+        prop: 'pageimages|extracts',
         exchars: '100',
         exintro: 'true',
         explaintext: 'true',

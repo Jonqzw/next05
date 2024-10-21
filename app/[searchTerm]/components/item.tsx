@@ -4,11 +4,11 @@ type Props = {
     result: Result
 }
 
-export default function item({ result } : Props) {
+export default function Item({ result } : Props) {
     const itemTextCol = (
         <div className='flex flex-col justify-center'>
             <h2>
-                <Link href={`https://en.wikipedia.org/?curid=curid=${result.pageId}`} target="_blank" 
+                <Link href={`https://en.wikipedia.org/?cruid=${result.pageId}`} target="_blank" 
                 className='text-xl font-bold underline'>{result.title}
                 </Link>
             </h2>
