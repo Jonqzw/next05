@@ -2,7 +2,7 @@ type Result = {
     pageId: string,
     title: string,
     extract: string,
-    thumbmail?: {
+    thumbnail?: {
         source: string,
         width: number,
         height: number

@@ -16,15 +16,15 @@ export default function Item({ result } : Props) {
         </div>
     )
 
-    const content = result?.thumbmail?.source
+    const content = result?.thumbnail?.source
     ?(
         <article className='m-4 max-w-lg'>
             <div className='flex flex-row gap-4'>
                 <div className='flex flex-col justify-center'>
-                    <img src={result.thumbmail.source} 
+                    <img src={result.thumbnail.source} 
                     alt={result.title} 
-                    width={result.thumbmail.width} 
-                    height={result.thumbmail.height}
+                    width={result.thumbnail.width} 
+                    height={result.thumbnail.height}
                     loading='lazy'/>
                 </div>
                 {itemTextCol}
